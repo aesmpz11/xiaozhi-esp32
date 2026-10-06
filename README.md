@@ -11,6 +11,16 @@ Tested successfully on physical hardware.
 
 
 
+GPIO pinnings for the hardware are as follows (please note that pins 2 and 4 are shared by both the amp and the mic):
+
+BCLK (Bit Clock / SCK): Move to GPIO 4
+
+WS / LRC (Word Select): Move to GPIO 2
+
+DIN (Microphone SD): Move to GPIO 10
+
+DOUT (Amplifier DIN): Move to GPIO 8 
+
 
 
 
